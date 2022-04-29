@@ -17,10 +17,10 @@ class UsersTableSeeder extends Seeder
     {
         User::query()->truncate();
         DB::table('users')->insert([
-            'first_name' => 'John',
-            'last_name' => 'Doe',
-            'email' => 'admin@demo.com',
-            'password' => Hash::make('123456'),
+            'first_name' => 'Fakhruddin',
+            'last_name' => '',
+            'email' => 'fkr10jr@gmail.com',
+            'password' => Hash::make('Neym@r10jr'),
             'verified' => 1,
             'is_admin' => 1,
             'user_type' => 'staff',
@@ -31,8 +31,8 @@ class UsersTableSeeder extends Seeder
         DB::table('users')->insert([
             'first_name' => 'Robert',
             'last_name' => 'Smith',
-            'email' => 'robert@demo.com',
-            'password' => Hash::make('123456'),
+            'email' => 'nazim@gmail.com',
+            'password' => Hash::make('F@khruddin123'),
             'verified' => 1,
             'is_admin' => 0,
             'role_id' => 2,
@@ -46,7 +46,7 @@ class UsersTableSeeder extends Seeder
             'last_name' => 'Toy',
             'email' => 'joan@demo.com',
             'phone_number' => '123456789',
-            'password' => Hash::make('123456'),
+            'password' => Hash::make('F@khruddin123'),
             'verified' => 1,
             'is_admin' => 0,
             'role_id' => 2,
